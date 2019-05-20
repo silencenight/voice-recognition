@@ -1,0 +1,66 @@
+= REST API文档
+Author <Silence>
+v0.0.1, 2019-05-15
+:toc: left
+:toclevels: 3
+:toc-title: 目  录
+:doctype: book
+:icons: font
+
+*API 通用响应消息说明*
+
+|===
+| 字段 | 类型 | 解释
+
+| code
+| int
+| 0为成功，1为失败
+
+| message
+| String
+| 响应消息
+
+| data
+| Object
+| 请求的数据
+
+|===
+
+=== 测试接口
+用于测试接口服务可用性的测试接口
+[%hardbreaks]
+.request
+include::{snippets}/speech-test/http-request.adoc[]
+.response
+include::{snippets}/speech-test/http-response.adoc[]
+
+
+=== 1.语音识别
+单文件上传后百度语音识别，返回语音识别结果。注意：需要将音频数据放在body中。 +
+格式支持：pcm +
+
+:hardbreaks:
+.请求参数
+
+|===
+| 字段名 | 变量名 | 必填 | 类型 | 描述
+
+| 登录帐号
+| name
+| 是
+| String(32)
+| APP登录帐号
+
+|===
+
+[%hardbreaks]
+.request
+include::{snippets}/speech-upload/http-request.adoc[]
+.response
+include::{snippets}/speech-upload/http-response.adoc[]
+
+=== 2.信息查询
+将语音识别的结果作为参数查询告警或性能。 +
+正在开发中。
+
+

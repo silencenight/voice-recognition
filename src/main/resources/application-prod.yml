@@ -1,0 +1,21 @@
+# 百度AI开放平台-密钥信息
+baidu:
+  APP_ID: 16214243
+  API_KEY: 0RuBP7AMKBqTxMQIa583KK3Q
+  SECRET_KEY: sllGd0wYYTiTmXIwRSRGjRZmFSpgOXzL
+
+#  返回结果中不返回null
+spring:
+  jackson:
+    default-property-inclusion: non_null
+
+#文件上传目录
+#文件上传
+file:
+  upload-folder: /data/source/
+  destination-folder: /data/dest/
+
+
+
+
+

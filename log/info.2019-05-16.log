@@ -1,0 +1,288 @@
+2019-05-16 13:09:04,379 INFO  - [main]  c.h.v.VoiceRecognitionApplication 50 : Starting VoiceRecognitionApplication on LAPTOP-HL5NQJGG with PID 18184 (D:\workspace\jsaf3-2019\voice-recognition\target\classes started by silence in D:\workspace\jsaf3-2019\voice-recognition)
+2019-05-16 13:09:04,384 INFO  - [main]  c.h.v.VoiceRecognitionApplication 679 : The following profiles are active: dev
+2019-05-16 13:09:06,306 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 90 : Tomcat initialized with port(s): 8080 (http)
+2019-05-16 13:09:06,333 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-16 13:09:06,342 INFO  - [main]  o.a.catalina.core.StandardService 173 : Starting service [Tomcat]
+2019-05-16 13:09:06,346 INFO  - [main]  o.a.catalina.core.StandardEngine 173 : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-16 13:09:06,353 INFO  - [main]  o.a.c.core.AprLifecycleListener 173 : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Java\jdk1.8.0_161\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Java\jdk1.8.0_161\jre\bin;D:\tools\apache-maven-3.3.9\bin;D:\tools\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\tools\mysql-5.7.21-winx64\bin;D:\tools\gradle-4.6\bin;C:\WINDOWS\System32\OpenSSH\;%CYGWIN_HOME%\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\MinGW\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\node_global\;C:\Users\zlg\AppData\Local\atom\bin;D:\software\putty;C:\Program Files\Microsoft VS Code\bin;C:\Users\zlg\AppData\Local\Programs\Fiddler;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;D:\workspace_go\bin;C:\Users\zlg\AppData\Roaming\npm;.]
+2019-05-16 13:09:06,477 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring embedded WebApplicationContext
+2019-05-16 13:09:06,478 INFO  - [main]  o.s.web.context.ContextLoader 296 : Root WebApplicationContext: initialization completed in 1915 ms
+2019-05-16 13:09:06,819 INFO  - [main]  o.s.s.c.ThreadPoolTaskExecutor 171 : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 13:09:07,035 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Starting ProtocolHandler ["http-nio-8080"]
+2019-05-16 13:09:07,161 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 204 : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-16 13:09:07,165 INFO  - [main]  c.h.v.VoiceRecognitionApplication 59 : Started VoiceRecognitionApplication in 3.725 seconds (JVM running for 5.353)
+2019-05-16 13:09:33,809 INFO  - [http-nio-8080-exec-2]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 13:09:33,809 INFO  - [http-nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet 524 : Initializing Servlet 'dispatcherServlet'
+2019-05-16 13:09:33,816 INFO  - [http-nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet 546 : Completed initialization in 6 ms
+2019-05-16 13:09:33,950 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 61 : „ÄêURL„Äë - http://localhost:8080/speech/upload
+2019-05-16 13:09:33,951 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 62 : „ÄêHTTP_METHOD„Äë - POST
+2019-05-16 13:09:33,952 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 63 : „ÄêIP„Äë - 0:0:0:0:0:0:0:1
+2019-05-16 13:09:33,953 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 64 : „ÄêCLASS_METHOD„Äë - com.hcycom.voicerecognition.controller.FileUploadController.upload
+2019-05-16 13:09:33,954 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 65 : „ÄêARGS„Äë - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4828c9c9
+2019-05-16 13:09:33,957 INFO  - [http-nio-8080-exec-2]  c.h.v.c.FileUploadController 69 : „ÄêÁî®Êà∑„Äë - test1
+2019-05-16 13:09:33,958 INFO  - [http-nio-8080-exec-2]  c.h.v.c.FileUploadController 70 : „ÄêÊñá‰ª∂ÂêçÁß∞„Äë - 16k.pcm
+2019-05-16 13:09:36,269 INFO  - [http-nio-8080-exec-2]  c.h.v.service.impl.BdApiServiceImpl 45 : „ÄêËØ≠Èü≥ËØÜÂà´„Äë -  {"result":["Âåó‰∫¨ÁßëÊäÄÈ¶Ü„ÄÇ"],"err_msg":"success.","sn":"248358025361557983374","corpus_no":"6691487640424679116","err_no":0}
+2019-05-16 13:09:36,287 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 76 : „ÄêRESPONSE„Äë - ResultVO(code=0, message=success, data={"result":["Âåó‰∫¨ÁßëÊäÄÈ¶Ü„ÄÇ"],"err_msg":"success.","sn":"248358025361557983374","corpus_no":"6691487640424679116","err_no":0})
+2019-05-16 13:09:36,288 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 77 : „ÄêSPEND TIME„Äë - „Äê2342„Äë milliseconds.
+2019-05-16 13:09:37,838 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 61 : „ÄêURL„Äë - http://localhost:8080/speech/upload
+2019-05-16 13:09:37,839 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 62 : „ÄêHTTP_METHOD„Äë - POST
+2019-05-16 13:09:37,839 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 63 : „ÄêIP„Äë - 0:0:0:0:0:0:0:1
+2019-05-16 13:09:37,839 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 64 : „ÄêCLASS_METHOD„Äë - com.hcycom.voicerecognition.controller.FileUploadController.upload
+2019-05-16 13:09:37,840 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 65 : „ÄêARGS„Äë - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7b27c4af
+2019-05-16 13:09:37,840 INFO  - [http-nio-8080-exec-3]  c.h.v.c.FileUploadController 69 : „ÄêÁî®Êà∑„Äë - test1
+2019-05-16 13:09:37,840 INFO  - [http-nio-8080-exec-3]  c.h.v.c.FileUploadController 70 : „ÄêÊñá‰ª∂ÂêçÁß∞„Äë - 16k.pcm
+2019-05-16 13:09:39,591 INFO  - [http-nio-8080-exec-3]  c.h.v.service.impl.BdApiServiceImpl 45 : „ÄêËØ≠Èü≥ËØÜÂà´„Äë -  {"result":["Âåó‰∫¨ÁßëÊäÄÈ¶Ü„ÄÇ"],"err_msg":"success.","sn":"402304260351557983378","corpus_no":"6691487657487064189","err_no":0}
+2019-05-16 13:09:39,596 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 76 : „ÄêRESPONSE„Äë - ResultVO(code=0, message=success, data={"result":["Âåó‰∫¨ÁßëÊäÄÈ¶Ü„ÄÇ"],"err_msg":"success.","sn":"402304260351557983378","corpus_no":"6691487657487064189","err_no":0})
+2019-05-16 13:09:39,596 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 77 : „ÄêSPEND TIME„Äë - „Äê1758„Äë milliseconds.
+2019-05-16 13:12:51,414 INFO  - [main]  c.h.v.VoiceRecognitionApplication 50 : Starting VoiceRecognitionApplication on LAPTOP-HL5NQJGG with PID 18356 (D:\workspace\jsaf3-2019\voice-recognition\target\classes started by silence in D:\workspace\jsaf3-2019\voice-recognition)
+2019-05-16 13:12:51,418 INFO  - [main]  c.h.v.VoiceRecognitionApplication 679 : The following profiles are active: dev
+2019-05-16 13:12:53,911 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 90 : Tomcat initialized with port(s): 8080 (http)
+2019-05-16 13:12:53,940 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-16 13:12:53,959 INFO  - [main]  o.a.catalina.core.StandardService 173 : Starting service [Tomcat]
+2019-05-16 13:12:53,960 INFO  - [main]  o.a.catalina.core.StandardEngine 173 : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-16 13:12:53,973 INFO  - [main]  o.a.c.core.AprLifecycleListener 173 : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Java\jdk1.8.0_161\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Java\jdk1.8.0_161\jre\bin;D:\tools\apache-maven-3.3.9\bin;D:\tools\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\tools\mysql-5.7.21-winx64\bin;D:\tools\gradle-4.6\bin;C:\WINDOWS\System32\OpenSSH\;%CYGWIN_HOME%\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\MinGW\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\node_global\;C:\Users\zlg\AppData\Local\atom\bin;D:\software\putty;C:\Program Files\Microsoft VS Code\bin;C:\Users\zlg\AppData\Local\Programs\Fiddler;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;D:\workspace_go\bin;C:\Users\zlg\AppData\Roaming\npm;.]
+2019-05-16 13:12:54,194 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring embedded WebApplicationContext
+2019-05-16 13:12:54,196 INFO  - [main]  o.s.web.context.ContextLoader 296 : Root WebApplicationContext: initialization completed in 2642 ms
+2019-05-16 13:12:54,750 INFO  - [main]  o.s.s.c.ThreadPoolTaskExecutor 171 : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 13:12:55,097 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Starting ProtocolHandler ["http-nio-8080"]
+2019-05-16 13:12:55,214 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 204 : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-16 13:12:55,218 INFO  - [main]  c.h.v.VoiceRecognitionApplication 59 : Started VoiceRecognitionApplication in 4.85 seconds (JVM running for 6.572)
+2019-05-16 13:13:05,032 INFO  - [http-nio-8080-exec-2]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 13:13:05,032 INFO  - [http-nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet 524 : Initializing Servlet 'dispatcherServlet'
+2019-05-16 13:13:05,042 INFO  - [http-nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet 546 : Completed initialization in 10 ms
+2019-05-16 13:13:05,106 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 61 : „ÄêURL„Äë - http://localhost:8080/speech/upload
+2019-05-16 13:13:05,107 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 62 : „ÄêHTTP_METHOD„Äë - POST
+2019-05-16 13:13:05,107 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 63 : „ÄêIP„Äë - 0:0:0:0:0:0:0:1
+2019-05-16 13:13:05,109 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 64 : „ÄêCLASS_METHOD„Äë - com.hcycom.voicerecognition.controller.FileUploadController.upload
+2019-05-16 13:13:05,109 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 65 : „ÄêARGS„Äë - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@43d8a2c2
+2019-05-16 13:13:05,113 INFO  - [http-nio-8080-exec-2]  c.h.v.c.FileUploadController 69 : „ÄêÁî®Êà∑„Äë - test1
+2019-05-16 13:13:05,114 INFO  - [http-nio-8080-exec-2]  c.h.v.c.FileUploadController 70 : „ÄêÊñá‰ª∂ÂêçÁß∞„Äë - 16k.pcm
+2019-05-16 13:13:06,765 INFO  - [http-nio-8080-exec-2]  c.h.v.service.impl.BdApiServiceImpl 45 : „ÄêËØ≠Èü≥ËØÜÂà´„Äë -  {"result":["Âåó‰∫¨ÁßëÊäÄÈ¶Ü„ÄÇ"],"err_msg":"success.","sn":"41736227591557983586","corpus_no":"6691488550275333744","err_no":0}
+2019-05-16 13:13:06,772 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 76 : „ÄêRESPONSE„Äë - ResultVO(code=0, message=success, data={"result":["Âåó‰∫¨ÁßëÊäÄÈ¶Ü„ÄÇ"],"err_msg":"success.","sn":"41736227591557983586","corpus_no":"6691488550275333744","err_no":0})
+2019-05-16 13:13:06,772 INFO  - [http-nio-8080-exec-2]  c.h.v.aspect.HttpAspect 77 : „ÄêSPEND TIME„Äë - „Äê1671„Äë milliseconds.
+2019-05-16 13:13:07,791 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 61 : „ÄêURL„Äë - http://localhost:8080/speech/upload
+2019-05-16 13:13:07,792 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 62 : „ÄêHTTP_METHOD„Äë - POST
+2019-05-16 13:13:07,792 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 63 : „ÄêIP„Äë - 0:0:0:0:0:0:0:1
+2019-05-16 13:13:07,792 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 64 : „ÄêCLASS_METHOD„Äë - com.hcycom.voicerecognition.controller.FileUploadController.upload
+2019-05-16 13:13:07,792 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 65 : „ÄêARGS„Äë - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@37edd213
+2019-05-16 13:13:07,793 INFO  - [http-nio-8080-exec-3]  c.h.v.c.FileUploadController 69 : „ÄêÁî®Êà∑„Äë - test1
+2019-05-16 13:13:07,793 INFO  - [http-nio-8080-exec-3]  c.h.v.c.FileUploadController 70 : „ÄêÊñá‰ª∂ÂêçÁß∞„Äë - 16k.pcm
+2019-05-16 13:13:09,468 INFO  - [http-nio-8080-exec-3]  c.h.v.service.impl.BdApiServiceImpl 45 : „ÄêËØ≠Èü≥ËØÜÂà´„Äë -  {"result":["Âåó‰∫¨ÁßëÊäÄÈ¶Ü„ÄÇ"],"err_msg":"success.","sn":"9879221791557983588","corpus_no":"6691488559571646714","err_no":0}
+2019-05-16 13:13:09,473 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 76 : „ÄêRESPONSE„Äë - ResultVO(code=0, message=success, data={"result":["Âåó‰∫¨ÁßëÊäÄÈ¶Ü„ÄÇ"],"err_msg":"success.","sn":"9879221791557983588","corpus_no":"6691488559571646714","err_no":0})
+2019-05-16 13:13:09,474 INFO  - [http-nio-8080-exec-3]  c.h.v.aspect.HttpAspect 77 : „ÄêSPEND TIME„Äë - „Äê1683„Äë milliseconds.
+2019-05-16 13:15:02,509 WARN  - [main]  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 86 : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-05-16 13:15:02,539 INFO  - [main]  c.h.v.c.FileUploadControllerTest 50 : Starting FileUploadControllerTest on LAPTOP-HL5NQJGG with PID 12392 (started by silence in D:\workspace\jsaf3-2019\voice-recognition)
+2019-05-16 13:15:02,541 INFO  - [main]  c.h.v.c.FileUploadControllerTest 679 : The following profiles are active: dev
+2019-05-16 13:15:07,987 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 90 : Tomcat initialized with port(s): 0 (http)
+2019-05-16 13:15:08,074 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-05-16 13:15:08,208 INFO  - [main]  o.a.catalina.core.StandardService 173 : Starting service [Tomcat]
+2019-05-16 13:15:08,211 INFO  - [main]  o.a.catalina.core.StandardEngine 173 : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-16 13:15:08,252 INFO  - [main]  o.a.c.core.AprLifecycleListener 173 : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Java\jdk1.8.0_161\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Java\jdk1.8.0_161\jre\bin;D:\tools\apache-maven-3.3.9\bin;D:\tools\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\tools\mysql-5.7.21-winx64\bin;D:\tools\gradle-4.6\bin;C:\WINDOWS\System32\OpenSSH\;%CYGWIN_HOME%\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\MinGW\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\node_global\;C:\Users\zlg\AppData\Local\atom\bin;D:\software\putty;C:\Program Files\Microsoft VS Code\bin;C:\Users\zlg\AppData\Local\Programs\Fiddler;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;D:\workspace_go\bin;C:\Users\zlg\AppData\Roaming\npm;.]
+2019-05-16 13:15:08,713 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring embedded WebApplicationContext
+2019-05-16 13:15:08,717 INFO  - [main]  o.s.web.context.ContextLoader 296 : Root WebApplicationContext: initialization completed in 6142 ms
+2019-05-16 13:15:10,264 INFO  - [main]  o.s.s.c.ThreadPoolTaskExecutor 171 : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 13:15:11,116 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 13:15:11,117 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 13:15:11,147 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 29 ms
+2019-05-16 13:15:11,233 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Starting ProtocolHandler ["http-nio-auto-1"]
+2019-05-16 13:15:11,294 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 204 : Tomcat started on port(s): 58089 (http) with context path ''
+2019-05-16 13:15:11,302 INFO  - [main]  c.h.v.c.FileUploadControllerTest 59 : Started FileUploadControllerTest in 9.776 seconds (JVM running for 12.066)
+2019-05-16 13:15:11,629 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 13:15:11,630 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 13:15:11,635 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 4 ms
+2019-05-16 13:15:11,710 INFO  - [main]  c.h.v.aspect.HttpAspect 61 : °æURL°ø - http://101.201.150.7:8010/speech/test
+2019-05-16 13:15:11,713 INFO  - [main]  c.h.v.aspect.HttpAspect 62 : °æHTTP_METHOD°ø - GET
+2019-05-16 13:15:11,714 INFO  - [main]  c.h.v.aspect.HttpAspect 63 : °æIP°ø - 127.0.0.1
+2019-05-16 13:15:11,719 INFO  - [main]  c.h.v.aspect.HttpAspect 64 : °æCLASS_METHOD°ø - com.hcycom.voicerecognition.controller.FileUploadController.hello
+2019-05-16 13:15:11,720 INFO  - [main]  c.h.v.aspect.HttpAspect 65 : °æARGS°ø - {}
+2019-05-16 13:15:11,751 INFO  - [main]  c.h.v.aspect.HttpAspect 76 : °æRESPONSE°ø - ResultVO(code=0, message=success, data=ResultVO(code=0, message=Ω”ø⁄∑˛ŒÒ≤‚ ‘’˝≥£, data=null))
+2019-05-16 13:15:11,767 INFO  - [main]  c.h.v.aspect.HttpAspect 77 : °æSPEND TIME°ø - °æ59°ø milliseconds.
+2019-05-16 13:15:12,071 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 13:15:12,072 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 13:15:12,079 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 7 ms
+2019-05-16 13:15:12,086 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 13:15:12,087 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 13:15:12,093 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 5 ms
+2019-05-16 13:15:12,127 INFO  - [main]  c.h.v.aspect.HttpAspect 61 : °æURL°ø - http://101.201.150.7:8010/speech/upload
+2019-05-16 13:15:12,127 INFO  - [main]  c.h.v.aspect.HttpAspect 62 : °æHTTP_METHOD°ø - POST
+2019-05-16 13:15:12,128 INFO  - [main]  c.h.v.aspect.HttpAspect 63 : °æIP°ø - 127.0.0.1
+2019-05-16 13:15:12,130 INFO  - [main]  c.h.v.aspect.HttpAspect 64 : °æCLASS_METHOD°ø - com.hcycom.voicerecognition.controller.FileUploadController.upload
+2019-05-16 13:15:12,132 INFO  - [main]  c.h.v.aspect.HttpAspect 65 : °æARGS°ø - org.springframework.mock.web.MockMultipartFile@ceddaf8
+2019-05-16 13:15:12,133 INFO  - [main]  c.h.v.c.FileUploadController 69 : °æ”√ªß°ø - zlg123
+2019-05-16 13:15:12,133 INFO  - [main]  c.h.v.c.FileUploadController 70 : °æŒƒº˛√˚≥∆°ø - 16k.pcm
+2019-05-16 13:15:14,624 INFO  - [main]  c.h.v.service.impl.BdApiServiceImpl 45 : °æ”Ô“Ù ∂±°ø -  {"result":["±±æ©ø∆ººπ›°£"],"err_msg":"success.","sn":"265008184811557983713","corpus_no":"6691489096405873820","err_no":0}
+2019-05-16 13:15:14,636 INFO  - [main]  c.h.v.aspect.HttpAspect 76 : °æRESPONSE°ø - ResultVO(code=0, message=success, data={"result":["±±æ©ø∆ººπ›°£"],"err_msg":"success.","sn":"265008184811557983713","corpus_no":"6691489096405873820","err_no":0})
+2019-05-16 13:15:14,637 INFO  - [main]  c.h.v.aspect.HttpAspect 77 : °æSPEND TIME°ø - °æ2510°ø milliseconds.
+2019-05-16 13:15:14,732 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 308 : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hcycom.voicerecognition.VoiceRecognitionApplicationTests], using SpringBootContextLoader
+2019-05-16 13:15:14,735 INFO  - [main]  o.s.t.c.s.AbstractContextLoader 264 : Could not detect default resource locations for test class [com.hcycom.voicerecognition.VoiceRecognitionApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-05-16 13:15:14,735 INFO  - [main]  o.s.t.c.s.AnnotationConfigContextLoaderUtils 83 : Could not detect default configuration classes for test class [com.hcycom.voicerecognition.VoiceRecognitionApplicationTests]: VoiceRecognitionApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-05-16 13:15:14,772 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 247 : Found @SpringBootConfiguration com.hcycom.voicerecognition.VoiceRecognitionApplication for test class com.hcycom.voicerecognition.VoiceRecognitionApplicationTests
+2019-05-16 13:15:14,775 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 248 : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-16 13:15:14,780 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 177 : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@45900b64, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f2a1813, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@79f90a3a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@22bdb1d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67b355c8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@388623ad, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@91f565d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@46e3559f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3b83459e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@32118208]
+2019-05-16 13:15:14,919 WARN  - [main]  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 86 : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-05-16 13:15:14,924 INFO  - [main]  c.h.v.VoiceRecognitionApplicationTests 50 : Starting VoiceRecognitionApplicationTests on LAPTOP-HL5NQJGG with PID 12392 (started by silence in D:\workspace\jsaf3-2019\voice-recognition)
+2019-05-16 13:15:14,925 INFO  - [main]  c.h.v.VoiceRecognitionApplicationTests 679 : The following profiles are active: dev
+2019-05-16 13:15:16,306 INFO  - [main]  o.s.s.c.ThreadPoolTaskExecutor 171 : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 13:15:16,670 INFO  - [main]  c.h.v.VoiceRecognitionApplicationTests 59 : Started VoiceRecognitionApplicationTests in 1.87 seconds (JVM running for 17.434)
+2019-05-16 13:15:16,728 INFO  - [Thread-4]  o.s.s.c.ThreadPoolTaskExecutor 208 : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-16 13:15:16,728 INFO  - [Thread-6]  o.s.s.c.ThreadPoolTaskExecutor 208 : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-16 15:25:06,881 WARN  - [main]  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 86 : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-05-16 15:25:06,909 INFO  - [main]  c.h.v.c.FileUploadControllerTest 50 : Starting FileUploadControllerTest on LAPTOP-HL5NQJGG with PID 5496 (started by silence in D:\workspace\jsaf3-2019\voice-recognition)
+2019-05-16 15:25:06,910 INFO  - [main]  c.h.v.c.FileUploadControllerTest 679 : The following profiles are active: dev
+2019-05-16 15:25:09,826 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 90 : Tomcat initialized with port(s): 0 (http)
+2019-05-16 15:25:09,847 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-05-16 15:25:09,862 INFO  - [main]  o.a.catalina.core.StandardService 173 : Starting service [Tomcat]
+2019-05-16 15:25:09,863 INFO  - [main]  o.a.catalina.core.StandardEngine 173 : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-16 15:25:09,882 INFO  - [main]  o.a.c.core.AprLifecycleListener 173 : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Java\jdk1.8.0_161\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Java\jdk1.8.0_161\jre\bin;D:\tools\apache-maven-3.3.9\bin;D:\tools\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\tools\mysql-5.7.21-winx64\bin;D:\tools\gradle-4.6\bin;C:\WINDOWS\System32\OpenSSH\;%CYGWIN_HOME%\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\MinGW\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\node_global\;C:\Users\zlg\AppData\Local\atom\bin;D:\software\putty;C:\Program Files\Microsoft VS Code\bin;C:\Users\zlg\AppData\Local\Programs\Fiddler;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;D:\workspace_go\bin;C:\Users\zlg\AppData\Roaming\npm;.]
+2019-05-16 15:25:10,060 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring embedded WebApplicationContext
+2019-05-16 15:25:10,062 INFO  - [main]  o.s.web.context.ContextLoader 296 : Root WebApplicationContext: initialization completed in 3131 ms
+2019-05-16 15:25:11,453 INFO  - [main]  o.s.s.c.ThreadPoolTaskExecutor 171 : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 15:25:12,334 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 15:25:12,335 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 15:25:12,363 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 27 ms
+2019-05-16 15:25:12,422 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Starting ProtocolHandler ["http-nio-auto-1"]
+2019-05-16 15:25:12,472 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 204 : Tomcat started on port(s): 58943 (http) with context path ''
+2019-05-16 15:25:12,478 INFO  - [main]  c.h.v.c.FileUploadControllerTest 59 : Started FileUploadControllerTest in 6.318 seconds (JVM running for 7.532)
+2019-05-16 15:25:12,801 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 15:25:12,804 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 15:25:12,810 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 6 ms
+2019-05-16 15:25:13,044 INFO  - [main]  c.h.v.aspect.HttpAspect 61 : °æURL°ø - http://101.201.150.7:8010/speech/test
+2019-05-16 15:25:13,049 INFO  - [main]  c.h.v.aspect.HttpAspect 62 : °æHTTP_METHOD°ø - GET
+2019-05-16 15:25:13,050 INFO  - [main]  c.h.v.aspect.HttpAspect 63 : °æIP°ø - 127.0.0.1
+2019-05-16 15:25:13,054 INFO  - [main]  c.h.v.aspect.HttpAspect 64 : °æCLASS_METHOD°ø - com.hcycom.voicerecognition.controller.FileUploadController.hello
+2019-05-16 15:25:13,055 INFO  - [main]  c.h.v.aspect.HttpAspect 65 : °æARGS°ø - {}
+2019-05-16 15:25:13,090 INFO  - [main]  c.h.v.aspect.HttpAspect 76 : °æRESPONSE°ø - ResultVO(code=0, message=success, data=ResultVO(code=0, message=Ω”ø⁄∑˛ŒÒ≤‚ ‘’˝≥£, data=null))
+2019-05-16 15:25:13,100 INFO  - [main]  c.h.v.aspect.HttpAspect 77 : °æSPEND TIME°ø - °æ57°ø milliseconds.
+2019-05-16 15:25:13,620 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 15:25:13,622 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 15:25:13,626 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 4 ms
+2019-05-16 15:25:13,630 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 15:25:13,631 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 15:25:13,634 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 3 ms
+2019-05-16 15:25:13,669 INFO  - [main]  c.h.v.aspect.HttpAspect 61 : °æURL°ø - http://101.201.150.7:8010/speech/upload
+2019-05-16 15:25:13,670 INFO  - [main]  c.h.v.aspect.HttpAspect 62 : °æHTTP_METHOD°ø - POST
+2019-05-16 15:25:13,671 INFO  - [main]  c.h.v.aspect.HttpAspect 63 : °æIP°ø - 127.0.0.1
+2019-05-16 15:25:13,672 INFO  - [main]  c.h.v.aspect.HttpAspect 64 : °æCLASS_METHOD°ø - com.hcycom.voicerecognition.controller.FileUploadController.upload
+2019-05-16 15:25:13,674 INFO  - [main]  c.h.v.aspect.HttpAspect 65 : °æARGS°ø - org.springframework.mock.web.MockMultipartFile@5f174dd2
+2019-05-16 15:25:13,675 INFO  - [main]  c.h.v.c.FileUploadController 69 : °æ”√ªß°ø - zlg123
+2019-05-16 15:25:13,676 INFO  - [main]  c.h.v.c.FileUploadController 70 : °æŒƒº˛√˚≥∆°ø - 16k.pcm
+2019-05-16 15:25:17,599 INFO  - [main]  c.h.v.service.impl.BdApiServiceImpl 45 : °æ”Ô“Ù ∂±°ø -  {"result":["±±æ©ø∆ººπ›°£"],"err_msg":"success.","sn":"529436148011557991515","corpus_no":"6691522605549174821","err_no":0}
+2019-05-16 15:25:17,612 INFO  - [main]  c.h.v.aspect.HttpAspect 76 : °æRESPONSE°ø - ResultVO(code=0, message=success, data={"result":["±±æ©ø∆ººπ›°£"],"err_msg":"success.","sn":"529436148011557991515","corpus_no":"6691522605549174821","err_no":0})
+2019-05-16 15:25:17,613 INFO  - [main]  c.h.v.aspect.HttpAspect 77 : °æSPEND TIME°ø - °æ3944°ø milliseconds.
+2019-05-16 15:25:17,671 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 308 : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hcycom.voicerecognition.VoiceRecognitionApplicationTests], using SpringBootContextLoader
+2019-05-16 15:25:17,674 INFO  - [main]  o.s.t.c.s.AbstractContextLoader 264 : Could not detect default resource locations for test class [com.hcycom.voicerecognition.VoiceRecognitionApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-05-16 15:25:17,675 INFO  - [main]  o.s.t.c.s.AnnotationConfigContextLoaderUtils 83 : Could not detect default configuration classes for test class [com.hcycom.voicerecognition.VoiceRecognitionApplicationTests]: VoiceRecognitionApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-05-16 15:25:17,692 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 247 : Found @SpringBootConfiguration com.hcycom.voicerecognition.VoiceRecognitionApplication for test class com.hcycom.voicerecognition.VoiceRecognitionApplicationTests
+2019-05-16 15:25:17,694 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 248 : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-16 15:25:17,698 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 177 : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3135bf25, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22ad1bae, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4116f66a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@59c04bee, org.springframework.test.context.support.DirtiesContextTestExecutionListener@45900b64, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f2a1813, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@79f90a3a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@22bdb1d0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@67b355c8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@388623ad]
+2019-05-16 15:25:17,952 WARN  - [main]  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 86 : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-05-16 15:25:17,987 INFO  - [main]  c.h.v.VoiceRecognitionApplicationTests 50 : Starting VoiceRecognitionApplicationTests on LAPTOP-HL5NQJGG with PID 5496 (started by silence in D:\workspace\jsaf3-2019\voice-recognition)
+2019-05-16 15:25:17,988 INFO  - [main]  c.h.v.VoiceRecognitionApplicationTests 679 : The following profiles are active: dev
+2019-05-16 15:25:19,625 INFO  - [main]  o.s.s.c.ThreadPoolTaskExecutor 171 : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 15:25:20,424 INFO  - [main]  c.h.v.VoiceRecognitionApplicationTests 59 : Started VoiceRecognitionApplicationTests in 2.713 seconds (JVM running for 15.479)
+2019-05-16 15:25:20,528 INFO  - [Thread-4]  o.s.s.c.ThreadPoolTaskExecutor 208 : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-16 15:25:20,529 INFO  - [Thread-6]  o.s.s.c.ThreadPoolTaskExecutor 208 : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-16 15:25:47,127 WARN  - [main]  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 86 : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-05-16 15:25:47,150 INFO  - [main]  c.h.v.c.FileUploadControllerTest 50 : Starting FileUploadControllerTest on LAPTOP-HL5NQJGG with PID 10660 (started by silence in D:\workspace\jsaf3-2019\voice-recognition)
+2019-05-16 15:25:47,150 INFO  - [main]  c.h.v.c.FileUploadControllerTest 679 : The following profiles are active: dev
+2019-05-16 15:25:50,429 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 90 : Tomcat initialized with port(s): 0 (http)
+2019-05-16 15:25:50,460 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-05-16 15:25:50,480 INFO  - [main]  o.a.catalina.core.StandardService 173 : Starting service [Tomcat]
+2019-05-16 15:25:50,481 INFO  - [main]  o.a.catalina.core.StandardEngine 173 : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-16 15:25:50,505 INFO  - [main]  o.a.c.core.AprLifecycleListener 173 : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Java\jdk1.8.0_161\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Java\jdk1.8.0_161\jre\bin;D:\tools\apache-maven-3.3.9\bin;D:\tools\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\tools\mysql-5.7.21-winx64\bin;D:\tools\gradle-4.6\bin;C:\WINDOWS\System32\OpenSSH\;%CYGWIN_HOME%\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\MinGW\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\node_global\;C:\Users\zlg\AppData\Local\atom\bin;D:\software\putty;C:\Program Files\Microsoft VS Code\bin;C:\Users\zlg\AppData\Local\Programs\Fiddler;C:\Users\zlg\AppData\Local\Microsoft\WindowsApps;D:\workspace_go\bin;C:\Users\zlg\AppData\Roaming\npm;.]
+2019-05-16 15:25:50,693 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring embedded WebApplicationContext
+2019-05-16 15:25:50,694 INFO  - [main]  o.s.web.context.ContextLoader 296 : Root WebApplicationContext: initialization completed in 3521 ms
+2019-05-16 15:25:52,704 INFO  - [main]  o.s.s.c.ThreadPoolTaskExecutor 171 : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 15:25:53,402 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 15:25:53,404 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 15:25:53,435 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 30 ms
+2019-05-16 15:25:53,532 INFO  - [main]  o.a.coyote.http11.Http11NioProtocol 173 : Starting ProtocolHandler ["http-nio-auto-1"]
+2019-05-16 15:25:53,603 INFO  - [main]  o.s.b.w.e.tomcat.TomcatWebServer 204 : Tomcat started on port(s): 58971 (http) with context path ''
+2019-05-16 15:25:53,617 INFO  - [main]  c.h.v.c.FileUploadControllerTest 59 : Started FileUploadControllerTest in 7.252 seconds (JVM running for 9.081)
+2019-05-16 15:25:54,002 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 15:25:54,003 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 15:25:54,006 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 2 ms
+2019-05-16 15:25:54,108 INFO  - [main]  c.h.v.aspect.HttpAspect 61 : °æURL°ø - http://101.201.150.7:8010/speech/test
+2019-05-16 15:25:54,118 INFO  - [main]  c.h.v.aspect.HttpAspect 62 : °æHTTP_METHOD°ø - GET
+2019-05-16 15:25:54,119 INFO  - [main]  c.h.v.aspect.HttpAspect 63 : °æIP°ø - 127.0.0.1
+2019-05-16 15:25:54,123 INFO  - [main]  c.h.v.aspect.HttpAspect 64 : °æCLASS_METHOD°ø - com.hcycom.voicerecognition.controller.FileUploadController.hello
+2019-05-16 15:25:54,124 INFO  - [main]  c.h.v.aspect.HttpAspect 65 : °æARGS°ø - {}
+2019-05-16 15:25:54,139 INFO  - [main]  c.h.v.aspect.HttpAspect 76 : °æRESPONSE°ø - ResultVO(code=0, message=success, data=ResultVO(code=0, message=Ω”ø⁄∑˛ŒÒ≤‚ ‘’˝≥£, data=null))
+2019-05-16 15:25:54,142 INFO  - [main]  c.h.v.aspect.HttpAspect 77 : °æSPEND TIME°ø - °æ35°ø milliseconds.
+2019-05-16 15:25:54,491 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 15:25:54,492 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 15:25:54,510 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 17 ms
+2019-05-16 15:25:54,522 INFO  - [main]  o.a.c.c.C.[Tomcat].[localhost].[/] 173 : Initializing Spring TestDispatcherServlet ''
+2019-05-16 15:25:54,523 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 524 : Initializing Servlet ''
+2019-05-16 15:25:54,525 INFO  - [main]  o.s.t.w.s.TestDispatcherServlet 546 : Completed initialization in 2 ms
+2019-05-16 15:25:54,557 INFO  - [main]  c.h.v.aspect.HttpAspect 61 : °æURL°ø - http://101.201.150.7:8010/speech/upload
+2019-05-16 15:25:54,558 INFO  - [main]  c.h.v.aspect.HttpAspect 62 : °æHTTP_METHOD°ø - POST
+2019-05-16 15:25:54,558 INFO  - [main]  c.h.v.aspect.HttpAspect 63 : °æIP°ø - 127.0.0.1
+2019-05-16 15:25:54,560 INFO  - [main]  c.h.v.aspect.HttpAspect 64 : °æCLASS_METHOD°ø - com.hcycom.voicerecognition.controller.FileUploadController.upload
+2019-05-16 15:25:54,562 INFO  - [main]  c.h.v.aspect.HttpAspect 65 : °æARGS°ø - org.springframework.mock.web.MockMultipartFile@1945113f
+2019-05-16 15:25:54,568 INFO  - [main]  c.h.v.c.FileUploadController 69 : °æ”√ªß°ø - zlg123
+2019-05-16 15:25:54,568 INFO  - [main]  c.h.v.c.FileUploadController 70 : °æŒƒº˛√˚≥∆°ø - 16k.pcm
+2019-05-16 15:25:57,673 INFO  - [main]  c.h.v.service.impl.BdApiServiceImpl 45 : °æ”Ô“Ù ∂±°ø -  {"result":["±±æ©ø∆ººπ›°£"],"err_msg":"success.","sn":"44456315371557991555","corpus_no":"6691522777513762850","err_no":0}
+2019-05-16 15:25:57,684 INFO  - [main]  c.h.v.aspect.HttpAspect 76 : °æRESPONSE°ø - ResultVO(code=0, message=success, data={"result":["±±æ©ø∆ººπ›°£"],"err_msg":"success.","sn":"44456315371557991555","corpus_no":"6691522777513762850","err_no":0})
+2019-05-16 15:25:57,684 INFO  - [main]  c.h.v.aspect.HttpAspect 77 : °æSPEND TIME°ø - °æ3127°ø milliseconds.
+2019-05-16 15:25:57,722 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 308 : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hcycom.voicerecognition.VoiceRecognitionApplicationTests], using SpringBootContextLoader
+2019-05-16 15:25:57,725 INFO  - [main]  o.s.t.c.s.AbstractContextLoader 264 : Could not detect default resource locations for test class [com.hcycom.voicerecognition.VoiceRecognitionApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-05-16 15:25:57,727 INFO  - [main]  o.s.t.c.s.AnnotationConfigContextLoaderUtils 83 : Could not detect default configuration classes for test class [com.hcycom.voicerecognition.VoiceRecognitionApplicationTests]: VoiceRecognitionApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-05-16 15:25:57,738 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 247 : Found @SpringBootConfiguration com.hcycom.voicerecognition.VoiceRecognitionApplication for test class com.hcycom.voicerecognition.VoiceRecognitionApplicationTests
+2019-05-16 15:25:57,743 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 248 : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-16 15:25:57,746 INFO  - [main]  o.s.b.t.c.SpringBootTestContextBootstrapper 177 : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22ad1bae, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4116f66a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59c04bee, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45900b64, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f2a1813, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@79f90a3a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@22bdb1d0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@67b355c8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@388623ad, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@91f565d]
+2019-05-16 15:25:57,869 WARN  - [main]  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer 86 : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-05-16 15:25:57,873 INFO  - [main]  c.h.v.VoiceRecognitionApplicationTests 50 : Starting VoiceRecognitionApplicationTests on LAPTOP-HL5NQJGG with PID 10660 (started by silence in D:\workspace\jsaf3-2019\voice-recognition)
+2019-05-16 15:25:57,873 INFO  - [main]  c.h.v.VoiceRecognitionApplicationTests 679 : The following profiles are active: dev
+2019-05-16 15:25:59,450 INFO  - [main]  o.s.s.c.ThreadPoolTaskExecutor 171 : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 15:25:59,791 INFO  - [main]  c.h.v.VoiceRecognitionApplicationTests 59 : Started VoiceRecognitionApplicationTests in 1.986 seconds (JVM running for 15.256)
+2019-05-16 15:25:59,853 INFO  - [Thread-4]  o.s.s.c.ThreadPoolTaskExecutor 208 : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-16 15:25:59,853 INFO  - [Thread-6]  o.s.s.c.ThreadPoolTaskExecutor 208 : Shutting down ExecutorService 'applicationTaskExecutor'
