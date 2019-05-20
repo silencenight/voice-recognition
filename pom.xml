@@ -44,6 +44,12 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<!-- Spring Boot Data Redis 依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
 		<!--<dependency>-->
 			<!--<groupId>org.mybatis.spring.boot</groupId>-->
 			<!--<artifactId>mybatis-spring-boot-starter</artifactId>-->
@@ -74,13 +80,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--加载本地jar-->
-		<!--<dependency>-->
-			<!--<groupId>com.sun.media.codec.audio.mp3</groupId>-->
-			<!--<artifactId>com.sun.media.codec.audio.mp3</artifactId>-->
-			<!--<scope>system</scope>-->
-			<!--<systemPath>${basedir}/src/main/resources/lib/mp3plugin.jar</systemPath>-->
-		<!--</dependency>-->
 		<!--百度语音识别api-->
 		<dependency>
 			<groupId>com.baidu.aip</groupId>

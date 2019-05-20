@@ -4,15 +4,25 @@ baidu:
   API_KEY: 0RuBP7AMKBqTxMQIa583KK3Q
   SECRET_KEY: sllGd0wYYTiTmXIwRSRGjRZmFSpgOXzL
 
-#  返回结果中不返回null
+
 spring:
+  #  返回结果中不返回null
   jackson:
     default-property-inclusion: non_null
+  #  Redis
+  redis:
+    host: 58.87.110.60
+    port: 6370
+    password: hcycom123
+    jedis:
+      pool:
+        max-active:
 
 #文件上传
 file:
   upload-folder: /data/source/
   destination-folder: /data/dest/
+
 
 
 
